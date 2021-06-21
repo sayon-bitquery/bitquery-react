@@ -19,7 +19,7 @@ export default function App() {
       method: "POST",
       headers: { 
         "Content-Type": "application/json",
-        "X-API-KEY": "BQYUGuoO6tZKM20I0lfBNCTEC4ouBCT1"
+        "X-API-KEY": "YOUR BITQUERY API KEY"
       },
       body: JSON.stringify({ query: QUERY }) // ({ QUERY })
     })
